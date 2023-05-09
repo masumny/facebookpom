@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3925" started-at="2023-05-02T20:09:17Z" finished-at="2023-05-02T20:09:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3925" started-at="2023-05-02T20:09:17Z" finished-at="2023-05-02T20:09:20Z">
+      <class name="Test.CreatAccountTeast">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.CreatAccountTeast@55040f2f]" name="setup" is-config="true" duration-ms="3266" started-at="2023-05-02T16:09:13Z" finished-at="2023-05-02T16:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="creataccounttest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.CreatAccountTeast@55040f2f]" name="creataccounttest" duration-ms="3643" started-at="2023-05-02T16:09:17Z" data-provider="fb" finished-at="2023-05-02T16:09:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[md]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[masum]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[masumbh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creataccounttest -->
+      </class> <!-- Test.CreatAccountTeast -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
